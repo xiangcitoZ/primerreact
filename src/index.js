@@ -3,11 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Saludo from './components/Saludo';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <Saludo nombre = "Alumno" edad="25"/>
+    <Saludo nombre = "Lucia" edad="18"/> */}
+     <App />
   </React.StrictMode>
 );
 
